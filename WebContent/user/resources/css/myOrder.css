@@ -1,0 +1,149 @@
+<style type="text/css">
+ .animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+.stars
+{
+    margin: 20px 0;
+    font-size: 24px;
+    color: #d17581;
+}
+#my_add
+{
+	height: 100px;
+    border: 1px solid grey;
+    box-shadow: rgb(110, 109, 109) 1px 1px 4px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding: 10px;
+    display: none;
+}
+.btn_blue:hover
+{
+	border: 1px solid blue !important;
+	color: blue !important;
+	background-color: transparent !important;
+}
+
+.tab 
+{
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+.tab button 
+{
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 18px 20px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #483d8b;
+}
+.tab button:hover 
+{
+  background-color: white;
+  border-bottom: 2px solid orange;
+  color:black;
+}
+.tab button.active 
+{
+  background-color: white;
+  border-bottom: 2px solid orange;
+  font-weight: bolder;
+  color:black;
+}
+.tabcontent 
+{
+  display: none;
+  padding: 6px 12px;
+  border: 0px solid #ccc;
+  border-top: none;
+  background-color: white !important;
+ /*  color:yellow; */
+  margin:30px; 
+}
+h1
+{
+	font-size: 2.5vw !important;
+}
+.col1
+{
+	padding:20px;
+	border:1px solid  #a9a9a9 ! important;
+	background-color:   #f8f8ff;
+}
+.col2
+{
+	padding:10px;
+	border-bottom:1px solid  #a9a9a9;
+	border-left:1px solid  #a9a9a9;
+	border-right:1px solid  #a9a9a9;
+}
+.subclass2
+{
+
+	margin-top: 2px;
+}
+.cancel
+{
+	font-size: 20px;
+	font-weight: bolder;	
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
+.success-box {
+ /*  margin:50px 0; */
+  padding:10px 10px;
+  border:1px solid #eee;
+  background:#f9f9f9;
+}
+
+.success-box img {
+  margin-right:10px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.success-box > div {
+  vertical-align:top;
+  display:inline-block;
+  color:#888;
+}
+</style>
