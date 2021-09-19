@@ -1,0 +1,31 @@
+.pdct-small-img img
+{
+	height: 50px;
+	width:50px;
+	margin: 10px 0;
+	cursor: pointer;
+	display: block;
+	opacity: .8;
+}
+.pdct-small-img img:hover
+{
+	opacity: 1;
+}
+.pdct-small-img
+{
+	float: left;
+}
+.pdct
+{
+	
+}
+
+.img-container img
+{
+	height: 500px;
+}
+.img-container
+{
+	float: left;
+	padding: 10px;
+}
