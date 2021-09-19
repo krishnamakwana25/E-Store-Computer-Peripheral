@@ -1,0 +1,21 @@
+PYTHON DJANGO
+===============================
+//to create app for user define database
+python manage.py startapp myapp 
+database called as model in python
+
+//to create table 
+class student (model.Model):
+	firstname = models.CharField(max_Length=20)
+	lastname = models.CharField(max_Length=20)
+	email = models.EmailField()
+	dob = models.DateField()
+
+
+to add into databse
+python manage.py makemigrations
+
+to show data.
+python manage.py migrate
+
+
